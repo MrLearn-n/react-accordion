@@ -1,0 +1,50 @@
+.container {
+    padding: 0px 36px;
+    max-width: 100%;
+    width: 100%;
+}
+
+.title > h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: left;
+    color: #11142D;
+    letter-spacing: 0.005em;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 16px 4.74px;
+    background: #F7F7FC;
+    border-radius: 8px;
+}
+
+.search > input {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    width: 100%;
+
+    border: none;
+    outline: none;
+    background: #F7F7FC;
+    height: 25px;
+
+    margin-left: 8px;
+}
+
+.icon {
+    width: 44.91px;
+    cursor: pointer;
+}

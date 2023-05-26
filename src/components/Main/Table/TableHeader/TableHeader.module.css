@@ -1,0 +1,25 @@
+.header {
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    margin-top: 20px;
+
+    overflow: hidden;
+}
+
+.box {
+    padding: 24.5px 5px;
+    background-color: #F7F7FC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box > p {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 120%;
+    text-align: left;
+    color: #11142D;
+    letter-spacing: 0.005em;
+    opacity: 0.8;
+}
